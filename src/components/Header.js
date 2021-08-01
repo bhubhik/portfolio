@@ -6,14 +6,7 @@ import Head from 'next/head';
 const Header = () => {
   return (
     <header className={classes.header}>
-      <Head>
-        <link rel='preconnect' href='https://fonts.googleapis.com' />
-        <link rel='preconnect' href='https://fonts.gstatic.com' />
-        <link
-          href='https://fonts.googleapis.com/css2?family=Saira:wght@200&display=swap'
-          rel='stylesheet'
-        />
-      </Head>
+      <Head></Head>
       <div className={classes.logo}>
         <Image src='/logo.png' alt='Logo' height='200px' width='200px' />
       </div>

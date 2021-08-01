@@ -10,6 +10,16 @@ const Homepage = () => {
   return (
     <div className={classes.home}>
       <Head>
+        <link rel='preconnect' href='https://fonts.googleapis.com' />
+        <link rel='preconnect' href='https://fonts.gstatic.com' />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Saira:wght@200&display=swap'
+          rel='stylesheet'
+        />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Sahitya&display=swap'
+          rel='stylesheet'
+        />
         <title>Anubhab Karki</title>
         <link rel='icon' href='/title.png'></link>
       </Head>
