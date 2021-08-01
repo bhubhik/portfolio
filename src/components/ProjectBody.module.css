@@ -1,0 +1,44 @@
+.projectBody {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectBody h1 {
+  color: #ea4242;
+  font-size: 50px;
+  font-family: Saira, sans-serif;
+}
+
+.display {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card {
+  height: 400px;
+  width: 400px;
+  margin: 60px;
+  transition: width 2s, height 2s;
+  border-radius: 6px;
+  background-color: rgb(39, 39, 30);
+  -webkit-box-shadow: 5px 5px 15px 5px #5b1fa0;
+  box-shadow: 5px 5px 15px 5px #ca8690;
+}
+@media only screen and (min-width: 900px) {
+  .card:hover {
+    width: 600px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .display {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    transition: none;
+  }
+}
