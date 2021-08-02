@@ -39,7 +39,7 @@
   background-color: rgba(244, 230, 230, 0.46);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .logo {
     display: none;
   }

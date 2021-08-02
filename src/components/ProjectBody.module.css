@@ -34,10 +34,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
-  .display {
-    grid-template-columns: 1fr;
-  }
+@media only screen and (max-width: 768px) {
   .card {
     transition: none;
   }
