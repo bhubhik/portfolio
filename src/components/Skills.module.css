@@ -23,11 +23,24 @@
 }
 .list li {
   list-style: none;
-  font-size: 24px;
-
+  font-size: 26px;
+  color: rgba(245, 245, 245, 0.925);
+  text-align: left;
+  border-left: 6px solid;
+  padding: 8px;
+  border-color: rgba(36, 29, 29, 0.493);
   margin-bottom: 10px;
 }
-
+.list li:hover {
+  border-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.822),
+      rgba(255, 255, 255, 0.925)
+    )
+    0 1;
+  color: white;
+  font-weight: bold;
+}
 @media only screen and (max-width: 480px) {
   .list ul {
     column-count: 2;

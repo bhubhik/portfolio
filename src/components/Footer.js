@@ -28,9 +28,25 @@ const Footer = () => {
           </li>
         </ul>
         <div className={classes.icons}>
-          <FontAwesomeIcon className={classes.social} icon={faLinkedin} />
-          <FontAwesomeIcon className={classes.social} icon={faFacebook} />
-          <FontAwesomeIcon className={classes.social} icon={faGithub} />
+          <a
+            href='https://www.facebook.com/anubhab.karki/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            {' '}
+            <FontAwesomeIcon className={classes.social} icon={faFacebook} />
+          </a>
+          <a href='https://github.com/bhubhik' target='_blank' rel='noreferrer'>
+            {' '}
+            <FontAwesomeIcon className={classes.social} icon={faGithub} />
+          </a>
+          <a
+            href='https://www.linkedin.com/in/anubhab-karki-98a50a1b9/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FontAwesomeIcon className={classes.social} icon={faLinkedin} />
+          </a>
         </div>
       </div>
       <p>2021 © Anubhab Karki</p>
