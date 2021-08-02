@@ -34,8 +34,14 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
+  .projectBody {
+    width: 100%;
+  }
+
   .card {
     transition: none;
+    width: 400px;
+    margin: none;
   }
 }
