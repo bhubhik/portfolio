@@ -15,7 +15,11 @@ const ProjectBody = () => {
               on which movie has more rating, nominations, awards and others. I
               dsigned this webpage using Bulma CSS.
             </p>
-            <a href='https://bhubhik.github.io/movie-compare/' target='_blank'>
+            <a
+              href='https://bhubhik.github.io/movie-compare/'
+              target='_blank'
+              rel='noreferrer'
+            >
               See project {`>>`}
             </a>
           </div>
@@ -29,7 +33,11 @@ const ProjectBody = () => {
               user fills up a form and provides a URL for the image and that
               data is stored in the database and also posted on the webpage.
             </p>
-            <a href='https://meetups-zeta.vercel.app/' target='_blank'>
+            <a
+              href='https://meetups-zeta.vercel.app/'
+              target='_blank'
+              rel='noreferrer'
+            >
               See project {`>>`}
             </a>
           </div>
@@ -44,7 +52,11 @@ const ProjectBody = () => {
               design. The GridList component really came on handy to display the
               photos.
             </p>
-            <a href='https://bhubhik.github.io/get-photos/' target='_blank'>
+            <a
+              href='https://bhubhik.github.io/get-photos/'
+              target='_blank'
+              rel='noreferrer'
+            >
               See project {`>>`}
             </a>
           </div>
@@ -57,7 +69,11 @@ const ProjectBody = () => {
               the wikepedia URL and then fetches and display the results on the
               search query. I have used only CSS to design the page.
             </p>
-            <a href='https://bhubhik.github.io/wiki-search/' target='_blank'>
+            <a
+              href='https://bhubhik.github.io/wiki-search/'
+              target='_blank'
+              rel='noreferrer'
+            >
               See project {`>>`}
             </a>
           </div>
