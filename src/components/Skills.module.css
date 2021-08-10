@@ -11,8 +11,15 @@
 }
 .skillBody h1 {
   font-size: 80px;
-
+  margin-bottom: 0;
   text-align: center;
+}
+.list {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .list ul {

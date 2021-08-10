@@ -14,23 +14,93 @@
 
 .display {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .card {
-  height: 400px;
+  height: 388px;
   width: 600px;
   margin: 60px;
+
   transition: width 1s, height 1s;
+  border: 20px solid white;
   border-radius: 6px;
-  background-color: rgb(39, 39, 30);
-  -webkit-box-shadow: 5px 5px 15px 5px #5b1fa0;
-  box-shadow: 5px 5px 15px 5px #ca8690;
+
+  box-shadow: 5px 5px 15px 5px #5a5858;
 }
+.meetup {
+  background-image: url('../../public/meetup.png');
+}
+.movieCompare {
+  background-image: url('../../public/movieCompare.png');
+}
+.unsplash {
+  background-image: url('../../public/unsplash.png');
+}
+.wikiSearch {
+  background-image: url('../../public/wikiSearch.png');
+}
+
+.description {
+  display: none;
+  width: 600px;
+  color: white;
+}
+.description p {
+  width: 75%;
+  font-size: 24px;
+  margin-top: 0;
+}
+.description h1 {
+  color: white;
+  margin-bottom: 0;
+}
+.description a {
+  color: rgb(240, 76, 240);
+  width: 100%;
+  margin-top: 10px;
+  text-align: right;
+  font-size: 19px;
+}
+
 @media only screen and (min-width: 900px) {
   .card:hover {
-    width: 1200px;
-    height: 500px;
+    width: 710px;
+    height: 430px;
+  }
+  .card:hover .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .meetup:hover {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.623),
+        rgba(0, 0, 0, 0.788)
+      ),
+      url('../../public/meetup.png');
+  }
+  .movieCompare:hover {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.623),
+        rgba(0, 0, 0, 0.788)
+      ),
+      url('../../public/movieCompare.png');
+  }
+  .unsplash:hover {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.623),
+        rgba(0, 0, 0, 0.788)
+      ),
+      url('../../public/unsplash.png');
+  }
+  .wikiSearch:hover {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.623),
+        rgba(0, 0, 0, 0.788)
+      ),
+      url('../../public/wikiSearch.png');
   }
 }
 
