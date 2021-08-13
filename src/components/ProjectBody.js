@@ -1,5 +1,5 @@
 import classes from './ProjectBody.module.css';
-import Image from 'next/image';
+import Link from 'next/link';
 
 const ProjectBody = () => {
   return (
@@ -79,6 +79,10 @@ const ProjectBody = () => {
           </div>
         </div>
       </div>
+
+      <h3>
+        <Link href='/projects'>See more projects</Link>
+      </h3>
     </div>
   );
 };

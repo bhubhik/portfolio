@@ -11,7 +11,14 @@
   font-size: 50px;
   font-family: Saira, sans-serif;
 }
+.projectBody h3 {
+  background-color: #005aaf;
+  font-weight: normal;
+  padding: 4px 9px 4px 9px;
 
+  color: white;
+  border-radius: 5px;
+}
 .display {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -101,6 +108,12 @@
         rgba(0, 0, 0, 0.788)
       ),
       url('../../public/wikiSearch.png');
+  }
+  .projectBody h3:hover {
+    background-color: white;
+    color: #005aaf;
+    border: 2px solid #005aaf;
+    font-weight: bold;
   }
 }
 
