@@ -13,10 +13,11 @@ const AboutMe = () => {
           working on a bank after I graduate but as I said, things change. I
           knew the basics of computer science and programming from my diploma. I
           started taking online courses and started building websites and
-          learning many new kinds of stuff which were exciting. I am a tech
-          lover and I{`'`}m very fascinated by modern technologies. And today I
-          am presenting you what I{`'`}ve learned in this portfolio and my
-          projects. <h3>Thank you.</h3>
+          learned many new kinds of stuff which were exciting, and I{`'`}m still
+          learning more day by day. I am a tech lover and I{`'`}m very
+          fascinated by modern technologies. And today I am presenting you what
+          I{`'`}ve learned in this portfolio and my projects.{' '}
+          <h3>Thank you.</h3>
         </p>
       </section>
 
