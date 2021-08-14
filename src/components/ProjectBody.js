@@ -10,10 +10,11 @@ const ProjectBody = () => {
           <div className={classes.description}>
             <h1>Movie Compare</h1>
             <p>
-              This app is made with plain javaScript. I have used OMDb API, to
-              fetch the data. It compares between the data and returns a result
-              on which movie has more rating, nominations, awards and others. I
-              dsigned this webpage using Bulma CSS.
+              A movie comparing app made using <strong>javaScript</strong> which
+              fetches data from a movie API. It compares between two movies,
+              according to their ratings, and provides the result. I have used{' '}
+              <strong>OMDB Api</strong>, to fetch the data. I dsigned this
+              webpage using <strong>Bulma CSS</strong>.
             </p>
             <a
               href='https://bhubhik.github.io/movie-compare/'
@@ -28,10 +29,12 @@ const ProjectBody = () => {
           <div className={classes.description}>
             <h1>Meetups</h1>
             <p>
-              This app is made using Next.js and Mongodb. I learned how to store
-              the data on cloud database which was very exciting. Basically, a
-              user fills up a form and provides a URL for the image and that
-              data is stored in the database and also posted on the webpage.
+              This app is made using <strong>Next.js</strong> and{' '}
+              <strong>MongoDB</strong>. Users can fill up the form and on
+              submit, that data is stored in the <strong>MongoDB</strong> online
+              database and is also fetched and posted on the homepage in real-
+              time. I learned how to store the data on cloud database which was
+              very exciting.
             </p>
             <a
               href='https://meetups-zeta.vercel.app/'
@@ -46,11 +49,11 @@ const ProjectBody = () => {
           <div className={classes.description}>
             <h1>Get Photos</h1>
             <p>
-              I used React for this project and Material-UI for the design. I
-              have also used Api of Unsplash from where I fetch the photos and
-              display them. Material-ui really is awesome, it made it easy to
-              design. The GridList component really came on handy to display the
-              photos.
+              I used <strong>React</strong> for this project and{' '}
+              <strong>Material-UI</strong> for the design. I have also used Api
+              of <strong>Unsplash</strong> from where I fetch the photos and
+              display them. Material-ui can be really helpful in designing, and
+              it provides a big components library.
             </p>
             <a
               href='https://bhubhik.github.io/get-photos/'
@@ -65,9 +68,10 @@ const ProjectBody = () => {
           <div className={classes.description}>
             <h1>Wiki Search</h1>
             <p>
-              Made this project using React, it puts a the users search query on
-              the wikepedia URL and then fetches and display the results on the
-              search query. I have used only CSS to design the page.
+              Made this project using <strong>React</strong>, it takes users
+              search query, and then calls an wikipedia <strong>API</strong> to
+              fetch data. After the results are fetched, it then returns styled
+              divs with the results.
             </p>
             <a
               href='https://bhubhik.github.io/wiki-search/'

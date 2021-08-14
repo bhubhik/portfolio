@@ -1,0 +1,51 @@
+.card {
+  width: 960px;
+  border-radius: 6px;
+  background: #292a2c;
+  background: -moz-linear-gradient(-45deg, #292a2c 0%, #000000 100%);
+  background: -webkit-linear-gradient(-45deg, #292a2c 0%, #000000 100%);
+  background: linear-gradient(135deg, #292a2c 0%, #000000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+  color: white;
+  margin-bottom: 70px;
+  font-family: Sahitya, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+.card section {
+  width: 490px;
+  margin-right: 100px;
+}
+.image {
+  height: 408px;
+  width: 350px;
+  background: url('../../public/dp.jpg');
+  border-radius: 6px;
+}
+.card section h1 {
+  font-size: 32px;
+}
+.card section p {
+  font-size: 19px;
+}
+.card h3 {
+  color: cyan;
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 100%;
+    border-radius: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .card section {
+    margin-right: 0;
+  }
+}

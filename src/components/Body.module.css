@@ -1,9 +1,10 @@
 .card {
-  width: 65%;
+  width: 960px;
   border-radius: 6px;
   background-color: rgba(206, 0, 0, 0.61);
   color: white;
   font-family: Sahitya, sans-serif;
+  margin-bottom: 70px;
   display: flex;
   justify-content: left;
 }

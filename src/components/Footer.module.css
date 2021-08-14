@@ -8,8 +8,8 @@
 
 .footer h2 {
   font-size: 40px;
-  margin-left: 60px;
-  margin-bottom: 0;
+  margin: 0 60px 0 50px;
+
   padding-top: 10px;
 }
 
@@ -17,13 +17,14 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+
   margin-left: 60px;
 }
 .contents ul {
   list-style: none;
   font-size: 22px;
   padding: 0;
-  margin-right: 160px;
+
   margin-bottom: 0;
 }
 .contents li {
@@ -32,17 +33,18 @@
 .icons {
   display: flex;
   justify-content: start;
+  font-size: 30px;
 }
 .social {
   width: 30px;
 }
 .icons svg {
-  margin: 10px 20px 10px 0;
+  margin: 10px 20px 0px 0;
 }
 
 .footer p {
   font-size: 16px;
-  margin-bottom: 0;
+  margin: 0;
   width: 100%;
   font-family: sans-serif;
   text-align: right;

@@ -5,6 +5,7 @@ import Skills from '../src/components/Skills';
 import ProjectBody from '../src/components/ProjectBody';
 import Footer from '../src/components/Footer';
 import Head from 'next/head';
+import AboutMe from '../src/components/AboutMe';
 
 const Homepage = () => {
   return (
@@ -18,6 +19,7 @@ const Homepage = () => {
       <Header />
       <div className={classes.display}>
         <Body />
+        <AboutMe />
         <Skills />
         <ProjectBody />
         <Footer />
