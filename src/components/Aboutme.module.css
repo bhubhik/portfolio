@@ -48,4 +48,7 @@
   .card section {
     margin-right: 0;
   }
+  .card section p {
+    width: 450px;
+  }
 }
