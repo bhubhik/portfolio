@@ -31,6 +31,7 @@
 }
 .card section p {
   font-size: 19px;
+  word-spacing: 2px;
 }
 .card h3 {
   color: cyan;

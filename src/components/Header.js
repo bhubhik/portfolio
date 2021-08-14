@@ -1,12 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import classes from './Header.module.css';
-import Head from 'next/head';
 
 const Header = () => {
   return (
     <header className={classes.header}>
-      <Head></Head>
       <div className={classes.logo}>
         <Image src='/logo.png' alt='Logo' height='200px' width='200px' />
       </div>
