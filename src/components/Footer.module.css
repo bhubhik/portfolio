@@ -49,9 +49,13 @@
   font-family: sans-serif;
   text-align: right;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
+  .contents {
+    margin-left: 8px;
+  }
   .footer h2 {
     font-size: 32px;
+    margin-left: 8px;
   }
   .contents ul {
     font-size: 18px;
