@@ -37,7 +37,7 @@
   color: cyan;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .card {
     width: 100%;
     border-radius: 0;

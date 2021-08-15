@@ -7,7 +7,7 @@
 }
 
 .footer h2 {
-  font-size: 40px;
+  font-size: 32px;
   margin: 0 60px 0 50px;
 
   padding-top: 10px;
@@ -22,18 +22,18 @@
 }
 .contents ul {
   list-style: none;
-  font-size: 22px;
+  font-size: 18px;
   padding: 0;
-
+  margin-top: 4px;
   margin-bottom: 0;
 }
 .contents li {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 .icons {
   display: flex;
   justify-content: start;
-  font-size: 30px;
+  font-size: 28px;
 }
 .social {
   width: 30px;
