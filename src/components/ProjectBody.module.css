@@ -8,12 +8,13 @@
 }
 
 .projectBody h1 {
-  color: #ea4242;
+  color: black;
   font-size: 50px;
   font-family: Saira, sans-serif;
 }
 .projectBody h3 {
   background-color: #005aaf;
+  border: 2px solid #ffffff;
   font-weight: normal;
   padding: 4px 9px 4px 9px;
 
@@ -27,44 +28,50 @@
 
 .card {
   height: 388px;
-  width: 500px;
-  margin: 60px;
+  width: 450px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: width 1s, height 1s;
-  border: 20px solid white;
   border-radius: 6px;
-
   box-shadow: 5px 5px 15px 5px #5a5858;
 }
 .meetup {
   background-image: url('../../public/meetup.png');
+  max-width: 100%;
+  max-height: 100%;
 }
 .movieCompare {
   background-image: url('../../public/movieCompare.png');
+  max-width: 100%;
+  max-height: 100%;
 }
 .unsplash {
   background-image: url('../../public/unsplash.png');
+  max-width: 100%;
+  max-height: 100%;
 }
 .wikiSearch {
   background-image: url('../../public/wikiSearch.png');
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .description {
   display: none;
-  width: 600px;
+  width: 450px;
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
 .description p {
-  width: 75%;
-  font-size: 24px;
+  width: 85%;
+  font-size: 22px;
   margin-top: 0;
 }
 .description h1 {
-  font-size: 36px;
+  font-size: 32px;
   margin-top: 5px;
   color: white;
   margin-bottom: 0;
@@ -78,11 +85,7 @@
   font-weight: bold;
 }
 
-@media only screen and (min-width: 900px) {
-  .card:hover {
-    width: 600px;
-    height: 430px;
-  }
+@media only screen and (min-width: 480px) {
   .card:hover .description {
     display: flex;
     flex-direction: column;
@@ -91,29 +94,29 @@
   }
   .meetup:hover {
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.623),
-        rgba(0, 0, 0, 0.788)
+        rgba(0, 0, 0, 0.726),
+        rgba(0, 0, 0, 0.842)
       ),
       url('../../public/meetup.png');
   }
   .movieCompare:hover {
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.623),
-        rgba(0, 0, 0, 0.788)
+        rgba(0, 0, 0, 0.726),
+        rgba(0, 0, 0, 0.842)
       ),
       url('../../public/movieCompare.png');
   }
   .unsplash:hover {
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.623),
-        rgba(0, 0, 0, 0.788)
+        rgba(0, 0, 0, 0.726),
+        rgba(0, 0, 0, 0.842)
       ),
       url('../../public/unsplash.png');
   }
   .wikiSearch:hover {
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.623),
-        rgba(0, 0, 0, 0.788)
+        rgba(0, 0, 0, 0.726),
+        rgba(0, 0, 0, 0.842)
       ),
       url('../../public/wikiSearch.png');
   }
