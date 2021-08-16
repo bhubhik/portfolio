@@ -3,13 +3,14 @@
   border-radius: 6px;
   background-color: rgba(206, 0, 0, 0.61);
   color: white;
-  font-family: Sahitya, sans-serif;
   margin-bottom: 70px;
   display: flex;
   justify-content: left;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .card h1 {
+  font-family: 'Caveat', cursive;
   font-size: 160px;
   margin-left: 30px;
 }
