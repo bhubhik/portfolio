@@ -21,8 +21,8 @@ const ProjectPage = () => {
               A movie comparing app made using <strong>javaScript</strong> which
               fetches data from a movie API. It compares between two movies,
               according to their ratings, and provides the result. I have used{' '}
-              <strong>OMDB Api</strong>, to fetch the data. I dsigned this
-              webpage using <strong>Bulma CSS</strong>.
+              <strong>OMDB API</strong>, to fetch the data. I designed this
+              webpage using <strong>Bulma</strong> CSS.
             </p>
             <a
               href='https://bhubhik.github.io/movie-compare/'
@@ -37,11 +37,11 @@ const ProjectPage = () => {
             <h1>Meetups</h1>
             <p>
               This app is made using <strong>Next.js</strong> and{' '}
-              <strong>MongoDB</strong>. Users can fill up the form and on
-              submit, that data is stored in the <strong>MongoDB</strong> online
-              database and is also fetched and posted on the homepage in real-
-              time. I learned how to store the data on cloud database which was
-              very exciting.
+              <strong>MongoDB</strong>. Users can fill up the form and submit
+              it, that data is stored in the <strong>MongoDB</strong> online
+              database and is also fetched and posted on the homepage in
+              real-time. To learn to store a data in cloud database and to fetch
+              it was exciting.
             </p>
             <a
               href='https://meetups-zeta.vercel.app/'

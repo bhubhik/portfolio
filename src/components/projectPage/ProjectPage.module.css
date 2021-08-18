@@ -9,12 +9,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 960px;
   margin-top: 0;
   background-image: linear-gradient(
@@ -34,18 +32,17 @@
   background-size: 147.08px 147.08px;
 }
 .projects {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  grid-template-columns: 1fr;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .description {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 3px solid #3d38466e;
+
   box-shadow: -7px 47px 56px -12px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -7px 47px 56px -12px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -7px 47px 56px -12px rgba(0, 0, 0, 0.75);
@@ -55,6 +52,7 @@
 
   background-color: rgb(255, 255, 255);
   transition: box-shadow 0.6s;
+  width: 70%;
 }
 .description p {
   font-size: 24px;
