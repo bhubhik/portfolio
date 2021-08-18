@@ -41,7 +41,7 @@ const Footer = () => {
             <FontAwesomeIcon className={classes.social} icon={faGithub} />
           </a>
           <a
-            href='https://www.linkedin.com/in/anubhab-karki-98a50a1b9/'
+            href='https://www.linkedin.com/in/anubhab-karki'
             target='_blank'
             rel='noreferrer'
           >
