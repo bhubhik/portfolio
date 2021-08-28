@@ -8,6 +8,7 @@
 }
 .logo img {
   display: block;
+  border-radius: 6px;
 }
 .header ul {
   list-style: none;
@@ -43,8 +44,13 @@
   .header {
     width: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .logo {
+    display: none;
   }
 }

@@ -6,6 +6,7 @@ import {
   faFacebook,
   faGithub,
 } from '@fortawesome/free-brands-svg-icons';
+
 import classes from './Footer.module.css';
 
 const Footer = () => {
@@ -27,28 +28,29 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <div className={classes.icons}>
-          <a
-            href='https://www.facebook.com/anubhab.karki/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            {' '}
-            <FontAwesomeIcon className={classes.social} icon={faFacebook} />
-          </a>
-          <a href='https://github.com/bhubhik' target='_blank' rel='noreferrer'>
-            {' '}
-            <FontAwesomeIcon className={classes.social} icon={faGithub} />
-          </a>
-          <a
-            href='https://www.linkedin.com/in/anubhab-karki'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <FontAwesomeIcon className={classes.social} icon={faLinkedin} />
-          </a>
-        </div>
       </div>
+      <div className={classes.icons}>
+        <a
+          href='https://www.facebook.com/anubhab.karki/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          {' '}
+          <FontAwesomeIcon className={classes.social} icon={faFacebook} />
+        </a>
+        <a href='https://github.com/bhubhik' target='_blank' rel='noreferrer'>
+          {' '}
+          <FontAwesomeIcon className={classes.social} icon={faGithub} />
+        </a>
+        <a
+          href='https://www.linkedin.com/in/anubhab-karki'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <FontAwesomeIcon className={classes.social} icon={faLinkedin} />
+        </a>
+      </div>
+
       <p>2021 © Anubhab Karki</p>
     </footer>
   );

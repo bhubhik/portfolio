@@ -152,22 +152,6 @@ const ProjectPage = () => {
               See project {`>>`}
             </a>
           </div>
-          <div className={classes.description}>
-            {' '}
-            <h1>Timer</h1>
-            <p>
-              A timer app made using javaScript and CSS. I used the{' '}
-              <strong>SVG</strong> element to make the circle, and change the
-              value of its <strong>stroke</strong> as time changes.
-            </p>
-            <a
-              href='https://bhubhik.github.io/timer/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              See project {`>>`}
-            </a>
-          </div>
         </div>
       </div>
       <Footer />

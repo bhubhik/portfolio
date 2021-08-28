@@ -2,13 +2,6 @@
   width: 960px;
   border-radius: 6px;
   width: 960px;
-  border-radius: 6px;
-  background: #292a2c;
-  background: -moz-linear-gradient(-45deg, #292a2c 0%, #000000 100%);
-  background: -webkit-linear-gradient(-45deg, #292a2c 0%, #000000 100%);
-  background: linear-gradient(135deg, #292a2c 0%, #000000 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
-  color: white;
   margin-bottom: 70px;
   display: flex;
   justify-content: left;
@@ -32,6 +25,7 @@
 
 .card span {
   font-size: 60px;
+
   display: block;
 }
 @media only screen and (max-width: 767px) {
