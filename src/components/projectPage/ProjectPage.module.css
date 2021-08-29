@@ -1,5 +1,5 @@
 .page footer {
-  margin-top: 0;
+  margin-top: 30px;
 }
 
 .page {
@@ -13,21 +13,6 @@
 .body {
   width: 960px;
   margin-top: 0;
-  background-image: linear-gradient(
-    135deg,
-    #ffffff 38.46%,
-    #f5f55d 38.46%,
-    #f5f55d 42.79%,
-    #000000 42.79%,
-    #000000 50%,
-    #ffffff 50%,
-    #ffffff 88.46%,
-    #f5f55d 88.46%,
-    #f5f55d 92.79%,
-    #000000 92.79%,
-    #000000 100%
-  );
-  background-size: 147.08px 147.08px;
 }
 .projects {
   display: flex;
@@ -40,32 +25,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: black;
-  box-shadow: -7px 47px 56px -12px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -7px 47px 56px -12px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -7px 47px 56px -12px rgba(0, 0, 0, 0.75);
+
   border-radius: 6px;
   text-align: center;
   margin: 20px;
 
-  background-color: rgb(255, 255, 255);
   transition: box-shadow 0.6s;
-  width: 70%;
+  width: 90%;
+}
+.description:hover {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    0px 3px 11px 9px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 10px 13px -7px #000000, 0px 3px 11px 9px rgba(0, 0, 0, 0.08);
 }
 .description p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 0;
   margin-top: 4px;
   width: 95%;
 }
 .description h1 {
-  background: #292a2c;
-  background: -moz-linear-gradient(-45deg, #292a2c 0%, #000000 100%);
-  background: -webkit-linear-gradient(-45deg, #292a2c 0%, #000000 100%);
-  background: linear-gradient(135deg, #292a2c 0%, #000000 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
-  color: white;
   height: 45px;
   font-family: Saira, sans-serif;
   margin-top: 0;
@@ -94,9 +74,6 @@
   .projects div {
     width: 400px;
     height: auto;
-    box-shadow: -7px 47px 56px -12px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: -7px 47px 56px -12px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -7px 47px 56px -12px rgba(0, 0, 0, 0.75);
   }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
