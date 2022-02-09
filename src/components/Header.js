@@ -26,7 +26,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href='https://drive.google.com/file/d/1EXHLkOdFVroNorJ_Vgb9qaFbdO21tw3X/view?usp=sharing'
+              href='https://docs.google.com/document/d/1_iseQevTtaX7z63CjAgMabQWk3fVZVi-cRojQKPKqRc/edit?usp=sharing'
               target='_blank'
               rel='noreferrer'
             >
