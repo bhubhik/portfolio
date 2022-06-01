@@ -8,6 +8,7 @@ import {
   faFigma,
   faGithub,
   faGit,
+  faShopify,
 } from '@fortawesome/free-brands-svg-icons';
 
 const Skills = () => {
@@ -33,6 +34,11 @@ const Skills = () => {
             React.js
             <FontAwesomeIcon icon={faReact} />
           </li>
+          <li>
+            Shopify
+            <FontAwesomeIcon icon={faShopify} />
+          </li>
+          <li>Liquid</li>
           <li>Next.js</li>
           <li>jQuery</li>
           <li>Tailwind CSS</li>
